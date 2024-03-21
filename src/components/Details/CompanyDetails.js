@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import companiesData from '../../companies.json';
+import './CompanyDetails.css'
 
 function CompanyDetails() {
   const { name } = useParams();
@@ -17,7 +18,7 @@ function CompanyDetails() {
   }
   return (
     <div>
-      <h2>Company Details</h2>
+      <h2>COMPANY DETAILS</h2>
       {/* <p>Company ID: {id} <br/> */}
       <p>
         Company Name : {company.Name} <br />
