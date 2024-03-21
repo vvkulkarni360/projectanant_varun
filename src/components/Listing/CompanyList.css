@@ -1,0 +1,45 @@
+/* card css */
+.logo {
+    width: 69%;
+}
+
+.card-title {
+    padding-bottom: 1rem;
+}
+
+.card {
+    width: 11rem;
+    margin: 2rem;
+    height: 15rem;
+    border: 2px solid rgb(5, 144, 190);
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+/* button css */
+.button-link {
+    margin-top: 0.5rem;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+
+/*alignment*/
+.CompanyListing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
