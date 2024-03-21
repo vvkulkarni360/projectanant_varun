@@ -21,16 +21,16 @@ function CompanyDetails() {
       <h2>COMPANY DETAILS</h2>
       {/* <p>Company ID: {id} <br/> */}
       <p>
-        Company Name : {company.Name} <br />
-        Company Cities: {company.City}   <br />
-        Company zones: {company.Zone}       <br />
-        Company LinkedIn Followers: {company['LinkedIn Followers']} <br />
-        Company Industry: {company.Industry} <br />
-        Company Size:  {company['Company Size']}       <br />
-        Headquarters:  {company.Headquarters}       <br />
-        Company Type:   {company['Company Type']}    <br />
-        Segment tags:   {company['Segment Tags']}      <br />
-        People Associated:   {company['People Associated']}     <br />
+        <span>Company Name</span>  : {company.Name} <br />
+        <span>Company Cities</span>: {company.City}   <br />
+        <span>Company zones</span> : {company.Zone}       <br />
+        <span>LinkedIn Followers</span>: {company['LinkedIn Followers']} <br />
+        <span>Company Industry</span>: {company.Industry} <br />
+        <span>Company Size</span>:  {company['Company Size']}       <br />
+        <span>Headquarters</span>:  {company.Headquarters}       <br />
+        <span>Company Type</span>:   {company['Company Type']}    <br />
+        <span>Segment tags</span>:   {company['Segment Tags']}      <br />
+        <span>People Associated</span>:   {company['People Associated']}     <br />
 
       </p>
 
