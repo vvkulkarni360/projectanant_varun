@@ -21,9 +21,9 @@ function CompanyList() {
             <div key={company.Name}>
               <h5 className="card-title">{company.Name}</h5>
 
-              <img className="card-img-top"
-                src="https://brandcentral.hp.com/content/dam/sites/brand-central/elem-logo/images/Logo_1_do.jpeg"
-                alt="Card image cap" />
+              <input type="image" img className="card-img-top"
+                src={"https://www.thesoftwarereport.com/wp-content/uploads/2022/07/microsoft.png"}
+                alt={"Card image cap"} />
               <Link to={`/company/${company.Name}`} className="button-link">
                 Details
               </Link>
@@ -36,3 +36,4 @@ function CompanyList() {
 }
 
 export default CompanyList;
+
