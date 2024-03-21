@@ -7,10 +7,10 @@ const Home = () => {
     return (
         <div>
             <div className="app-container">
-                <div className="filter-container">
+                <div className="company-list-container">
                     <CompanyList />
                 </div>
-                <div className="company-list-container">
+                <div className="filter-container">
                     <FilterSection />
                 </div>
             </div>

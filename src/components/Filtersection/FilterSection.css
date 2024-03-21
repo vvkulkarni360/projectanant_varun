@@ -1,222 +1,29 @@
 /*  */
 .filter {
-    position: relative;
     background: linear-gradient(135deg, rgb(179, 208, 253) 0%, rgb(164, 202, 248) 100%);
     border-radius: 1000px;
     padding: 10px;
-    position: fixed;
+    /* position: fixed; */
     display: inline-block;
     place-content: right;
-    z-index: 0;
-    min-width: 10rem;
 }
 
-.search-container {
-    position: relative;
-    width: 100%;
-    border-radius: 50px;
-    background: linear-gradient(135deg, rgb(218, 232, 247) 0%, rgb(214, 229, 247) 100%);
-    padding: 5px;
+.FilterMapDiv{
+    overflow-y: auto;
+}
+
+.filter-container {
     display: flex;
-    align-items: center;
-}
-
-.search-container::after,
-.search-container::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    border-radius: inherit;
-    position: absolute;
-}
-
-.search-container::before {
-    top: -1px;
-    left: -1px;
-    background: linear-gradient(0deg, rgb(218, 232, 247) 0%, rgb(255, 255, 255) 100%);
-    z-index: -1;
-}
-
-.search-container::after {
-    bottom: -1px;
-    right: -1px;
-    background: linear-gradient(0deg, rgb(163, 206, 255) 0%, rgb(211, 232, 255) 100%);
-    box-shadow: rgba(79, 156, 232, 0.7019607843) 3px 3px 5px 0px, rgba(79, 156, 232, 0.7019607843) 5px 5px 20px 0px;
-    z-index: -2;
-}
-
-.input {
-    padding: 10px;
-    width: 100%;
-    background: linear-gradient(135deg, rgb(218, 232, 247) 0%, rgb(214, 229, 247) 100%);
-    border: none;
-    color: #9EBCD9;
-    font-size: 20px;
-    border-radius: 50px;
-}
-
-.input:focus {
-    outline: none;
-    background: linear-gradient(135deg, rgb(239, 247, 255) 0%, rgb(214, 229, 247) 100%);
-}
-
-.search__icon {
-    width: 50px;
-    aspect-ratio: 1;
-    border-left: 2px solid white;
-    border-top: 3px solid transparent;
-    border-bottom: 3px solid transparent;
-    border-radius: 50%;
-    padding-left: 12px;
-    margin-right: 10px;
-}
-
-.search__icon:hover {
-    border-left: 3px solid white;
-}
-
-.search__icon path {
-    fill: white;
-}
-
-.container form {
-    display: flex;
-    position: fixed;
-    margin-top: 8rem;
-    margin-left: 1rem;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.container label {
-    display: flex;
-    cursor: pointer;
-    font-weight: 500;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 0.375em;
-}
-
-.container label input {
-    position: absolute;
-    left: -9999px;
-}
-
-.container label input:checked+span {
-    background-color: rgb(211, 232, 255);
-    color: black;
-}
-
-.container label input:checked+span:before {
-    box-shadow: inset 0 0 0 0.4375em rgba(79, 156, 232, 0.7019607843);
-}
-
-.container label span {
-    display: flex;
-    align-items: center;
-    padding: 0.375em 0.75em 0.375em 0.375em;
-    border-radius: 99em;
-    transition: 0.25s ease;
-    color: rgb(0, 0, 0);
-}
-
-.container label span:hover {
-    background-color: #d6d6e5;
-}
-
-.container label span:before {
-    display: flex;
-    flex-shrink: 0;
-    content: "";
-    background-color: #fff;
-    width: 1.5em;
-    height: 1.5em;
-    border-radius: 50%;
-    margin-right: 0.375em;
-    transition: 0.25s ease;
-    box-shadow: inset 0 0 0 0.125em rgba(79, 156, 232, 0.7019607843);
+    flex-direction: row;
+    /* align-items: stretch;  */
 }
 
 
 
-
-
-#selectors {
-    display: flex;
-    width: 20vw;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-select {
-    padding: 8px;
-    /* margin: 2px 0; */
-    border: 1px solid #3498db;
-    /* Blue border color */
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: #3498db;
-    /* Blue text color */
-    background-color: #ecf0f1;
-    /* Light background color */
-}
-
-select:hover,
-select:focus {
-    border-color: #2980b9;
-    /* Darker blue border color on hover or focus */
+.FilterMapDiv {
+    overflow-y: auto; 
+    flex-grow: 1; /* Allow the container to grow and fill remaining space */
+    /* max-height: calc(100vh - 100px); */
 }
 
 
-
-/*submit button */
-
-button {
-    display: flex;
-    align-items: center;
-    font-family: inherit;
-    position: fixed;
-    cursor: pointer;
-    margin-left:5rem;
-    margin-top: 30rem;
-    font-weight: 500;
-    font-size: 17px;
-    padding: 0.8em 1.3em 0.8em 0.9em;
-    color: white;
-    background: rgba(79, 156, 232, 0.7019607843);
-    background: linear-gradient(to right, rgba(79, 156, 232, 0.7019607843), rgba(79, 156, 232, 0.7019607843), rgba(79, 156, 232, 0.7019607843));
-    border: none;
-    letter-spacing: 0.05em;
-    border-radius: 16px;
-  }
-  
-  button svg {
-    margin-right: 3px;
-    transform: rotate(30deg);
-    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
-  }
-  
-  button span {
-    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
-  }
-  
-  button:hover svg {
-    transform: translateX(5px) rotate(90deg);
-  }
-  
-  button:hover span {
-    transform: translateX(7px);
-  }
-
-
-
-  .dropdown {
-    display: none; /* Hide dropdown by default */
-  }
-  
-  .dropdown.show {
-    display: block; /* Show dropdown when the show class is applied */
-  }
-  
-  /* Other styles for dropdown and components */
-  

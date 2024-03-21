@@ -1,0 +1,10 @@
+{
+  "city": ["New York", "Los Angeles", "Chicago"],
+  "zone": ["Zone 1", "Zone 2", "Zone 3"],
+  "follower": ["Follower 1", "Follower 2", "Follower 3"],
+  "headquarters": ["HQ1", "HQ2", "HQ3"],
+  "industry": ["Tech", "Finance", "Healthcare"],
+  "headcount": ["<100", "100-500", "500+"],
+  "listing": ["Public", "Private", "Not Listed"],
+  "segments": ["Segment A", "Segment B", "Segment C"]
+}
