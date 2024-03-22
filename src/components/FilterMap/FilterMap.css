@@ -1,6 +1,6 @@
 .container form {
     display: flex;
-    position: fixed;
+    /* position: relative; */
     /* margin-top: 8rem;
     margin-left: 1rem; */
     flex-wrap: wrap;
@@ -57,12 +57,12 @@
 }
 
 
-#selectors {
+/* #selectors {
     display: flex;
-    width: 20vw;
     flex-direction: column;
     justify-content: space-around;
-}
+    align-items: center;
+} */
 
 select {
     padding: 8px;
@@ -87,12 +87,13 @@ select:focus {
 
 button {
     display: flex;
+    width: 8vw;
     align-items: center;
     font-family: inherit;
-    position: fixed;
+    /* position: fixed; */
     cursor: pointer;
-    margin-left: 5rem;
-    margin-top: 30rem;
+    /* margin-left: 5rem; */
+    margin-top: 2rem;
     font-weight: 500;
     font-size: 17px;
     padding: 0.8em 1.3em 0.8em 0.9em;

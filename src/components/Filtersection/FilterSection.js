@@ -7,11 +7,11 @@ const FilterSection = () => {
 
     return (
         <div>
-            <div class="filter container">
+            <div className="filter container">
                 <div className="SearchbtnDiv">
                     <Searchbtn />
                 </div>
-                <div className="FilterMapDiv scrollable">
+                <div className="FilterMapDiv">
                     <FilterMap />
                 </div>
             </div>

@@ -1,13 +1,16 @@
 
 
 .search-container {
-    position: relative;
-    width: 100%;
+    /* position: relative; */
+    /* width: 90%; */
     border-radius: 50px;
     background: linear-gradient(135deg, rgb(218, 232, 247) 0%, rgb(214, 229, 247) 100%);
     padding: 5px;
     display: flex;
     align-items: center;
+    /*new*/
+    background: linear-gradient(135deg, rgb(179, 208, 253) 0%, rgb(164, 202, 248) 100%);
+    /* border-radius: 1000px; */
 }
 
 .search-container::after,

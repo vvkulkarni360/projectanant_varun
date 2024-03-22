@@ -1,4 +1,8 @@
 .navbar{
     justify-content: center;
+    width: 100vw;
     background-color: #a3cae9;
+    height: 10dvh;
+    position: fixed;
+    z-index: 10;
 }

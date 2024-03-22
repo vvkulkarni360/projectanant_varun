@@ -48,8 +48,9 @@
 
 import React, { useState } from 'react';
 import './FilterMap.css';
-import FilterMapdata from './FilterMapdata.json';
-import DropdownItems from './DropdownItems.json';
+// import FilterMapdata from './FilterMapdata.json';
+import FilterMapdata from '../../FilterMapdata.json'
+import DropdownItems from '../../DropdownItems.json';
 
 const FilterMap = () => {
     const [selectedCheckboxes, setSelectedCheckboxes] = useState([]);
