@@ -3,7 +3,7 @@ import './Searchbtn.css'
 
 const Searchbtn = () => {
     return (
-        <div>
+        <div class="cont-select">
             <div className="search-container">
                 <input className="input" type="text" />
                 <svg viewBox="0 0 24 24" className="search__icon">
