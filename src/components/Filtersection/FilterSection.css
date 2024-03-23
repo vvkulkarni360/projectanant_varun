@@ -17,8 +17,19 @@
 
 .FilterMapDiv {
     overflow-y: auto; 
+    overflow-x: scroll;
     /* flex-grow: 1; */
     /* max-height: calc(100vh - 100px); */
+}
+.FilterMapDiv::-webkit-scrollbar {
+    margin-top: 1rem;
+    width: 2px; 
+    height: 10px;/* Width of the scrollbar */
+}
+
+.FilterMapDiv::-webkit-scrollbar-thumb {
+    background-color: rgba(79, 156, 232, 0.7019607843); /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners of the scrollbar thumb */
 }
 
 
