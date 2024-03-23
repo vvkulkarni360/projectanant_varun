@@ -6,12 +6,12 @@
 
 
 .company-list-container {
-    margin: 5rem 0 0rem 0;
+    margin: 1rem 0 0rem 0;
     width: 80%;
     overflow-y: scroll;
     
     /* Enable vertical scrolling if content exceeds container height */
-    border: 1px solid #ccc;
+    
     /* Optional: Add borders for visual separation */
     padding: 10px;
     /* Optional: Add padding for spacing */
@@ -26,11 +26,11 @@
 }
 
 .filter-container{
-    margin: 5rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
     width: 23.5%;
     overflow-y: scroll;
     /* Enable vertical scrolling if content exceeds container height */
-    border: 1px solid rgba(79, 156, 232, 0.7019607843);;
+    border-left: 1px solid rgba(79, 156, 232, 0.7019607843);;
     /* Optional: Add borders for visual separation */
     padding: 10px;
     /* Optional: Add padding for spacing */

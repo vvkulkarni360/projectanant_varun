@@ -18,8 +18,7 @@ function CompanyDetails() {
   }
   return (
     <div>
-      <h2>COMPANY DETAILS</h2>
-      {/* <p>Company ID: {id} <br/> */}
+      <h2><i>COMPANY DETAILS</i></h2>
       <p>
         <span>Company Name</span>  : {company.Name} <br />
         <span>Company Cities</span>: {company.City}   <br />
