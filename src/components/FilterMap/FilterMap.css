@@ -1,10 +1,11 @@
 .container form {
     display: flex;
-    /* position: relative; */
-    /* margin-top: 8rem;
-    margin-left: 1rem; */
+    padding-left: 0;
     flex-wrap: wrap;
     flex-direction: column;
+    font-family: monospace;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .container label {
@@ -86,8 +87,9 @@ select:focus {
 /*submit button */
 
 button {
+    margin-left: 1rem;
     display: flex;
-    width: 8vw;
+    width: 11vw;
     align-items: center;
     font-family: inherit;
     /* position: fixed; */
@@ -96,7 +98,7 @@ button {
     margin-top: 2rem;
     font-weight: 500;
     font-size: 17px;
-    padding: 0.8em 1.3em 0.8em 0.9em;
+    padding: 0.7rem 1.5rem;
     color: white;
     background: rgba(79, 156, 232, 0.7019607843);
     background: linear-gradient(to right, rgba(79, 156, 232, 0.7019607843), rgba(79, 156, 232, 0.7019607843), rgba(79, 156, 232, 0.7019607843));

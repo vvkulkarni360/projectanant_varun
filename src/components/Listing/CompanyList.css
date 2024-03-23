@@ -1,3 +1,4 @@
+
 /* card css */
 .logo {
     width: 69%;
@@ -5,13 +6,16 @@
 
 .card-title {
     padding-bottom: 1rem;
+    font-family: monospace;
+    font-weight:bold;
+    color:rgb(0, 79, 198);
 }
 
 .card {
     width: 11rem;
     margin: 2rem;
     height: 15rem;
-    border: 2px solid rgb(5, 144, 190);
+    border: 2px solid rgba(61, 145, 229, 0.702);;
 }
 
 .card-body {
@@ -24,7 +28,7 @@
     margin-top: 40%;
     display: inline-block;
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: rgba(28, 124, 220, 0.702);
     color: #fff;
     text-decoration: none;
     border: none;
@@ -33,7 +37,7 @@
 }
 
 .button-link:hover {
-    background-color: #0056b3;
+    background-color: rgba(61, 145, 229, 0.702);;
 }
 
 /*alignment*/

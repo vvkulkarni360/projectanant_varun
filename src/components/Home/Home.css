@@ -6,23 +6,41 @@
 
 
 .company-list-container {
-    margin: 2rem 0 1rem 0;
+    margin: 5rem 0 0rem 0;
     width: 80%;
-    overflow-y: auto;
+    overflow-y: scroll;
+    
     /* Enable vertical scrolling if content exceeds container height */
     border: 1px solid #ccc;
     /* Optional: Add borders for visual separation */
     padding: 10px;
     /* Optional: Add padding for spacing */
 }
+.company-list-container::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.company-list-container::-webkit-scrollbar-thumb {
+    background-color: rgba(79, 156, 232, 0.7019607843); /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners of the scrollbar thumb */
+}
 
 .filter-container{
     margin: 5rem 0 1rem 0;
-    width: 20%;
-    overflow-y: auto;
+    width: 23.5%;
+    overflow-y: scroll;
     /* Enable vertical scrolling if content exceeds container height */
-    border: 1px solid black;
+    border: 1px solid rgba(79, 156, 232, 0.7019607843);;
     /* Optional: Add borders for visual separation */
     padding: 10px;
     /* Optional: Add padding for spacing */
+}
+.filter-container::-webkit-scrollbar {
+    width: 10px; 
+    height: 1px;/* Width of the scrollbar */
+}
+
+.filter-container::-webkit-scrollbar-thumb {
+    background-color: rgba(79, 156, 232, 0.7019607843); /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners of the scrollbar thumb */
 }
