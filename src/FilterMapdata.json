@@ -1,0 +1,10 @@
+[
+  { "id": 1, "value": "city", "label": "Cities" },
+  { "id": 2, "value": "zone", "label": "Zones" },
+  { "id": 3, "value": "follower", "label": "Followers" },
+  { "id": 4, "value": "headquarters", "label": "Headquarters" },
+  { "id": 5, "value": "industry", "label": "Industry" },
+  { "id": 6, "value": "headcount", "label": "Headcount" },
+  { "id": 7, "value": "listing", "label": "Listing" },
+  { "id": 8, "value": "segments", "label": "Segments" }
+]
