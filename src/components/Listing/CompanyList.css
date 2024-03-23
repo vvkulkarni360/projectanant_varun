@@ -1,9 +1,4 @@
 
-/* card css */
-.logo {
-    width: 69%;
-}
-
 .card-title {
     padding-bottom: 1rem;
     font-family: monospace;
@@ -11,9 +6,10 @@
     color:rgb(0, 79, 198);
 }
 
+
 .card {
     width: 11rem;
-    margin: 2rem;
+    margin: 2rem 1rem;
     height: 15rem;
     border: 2px solid rgba(61, 145, 229, 0.702);;
 }
@@ -25,7 +21,7 @@
 
 /* button css */
 .button-link {
-    margin-top: 40%;
+    margin-top: 20%;
     display: inline-block;
     padding: 8px 16px;
     background-color: rgba(28, 124, 220, 0.702);
@@ -47,3 +43,26 @@
     justify-content: space-between;
 }
 
+.card-img-top{
+    aspect-ratio: 3;
+    object-fit: contain;
+}
+
+.CompanyName{
+    display: flex;
+    margin: 20% 0;
+    height: 20%;
+    justify-content: center;
+}
+.smallFont{
+    font-size: 0.85rem;
+}
+.largeFont{
+    font-size: x-large;
+}
+
+/* .CardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
