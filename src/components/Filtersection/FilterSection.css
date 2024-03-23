@@ -23,7 +23,7 @@
 }
 .FilterMapDiv::-webkit-scrollbar {
     margin-top: 1rem;
-    width: 2px; 
+    width: 1px; 
     height: 10px;/* Width of the scrollbar */
 }
 
