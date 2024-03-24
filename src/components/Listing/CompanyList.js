@@ -19,7 +19,7 @@ function CompanyList() {
           <div className="card-body">
 
             <div key={company.Name}>
-              <p className={`CompanyName ${company.Name.length > 10 ? 'smallFont' : 'largeFont'}`}>{company.Name}</p>
+              <p className={`CompanyName card-title ${company.Name.length > 10 ? 'smallFont' : 'largeFont'}`}>{company.Name}</p>
 
               <input type="image" img className="card-img-top"
                 // src={"https://www.thesoftwarereport.com/wp-content/uploads/2022/07/microsoft.png"}
